@@ -1,0 +1,93 @@
+body {
+  font-family: Georgia;
+  /* display: flex;
+    flex-direction: column;
+    align-content: space-around; */
+}
+
+h1,
+.food-picture,
+main {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+figure {
+  margin-left: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.image-caption {
+  text-align: center;
+  color: grey;
+  margin-top: 1em;
+}
+
+.recipe-ad {
+  margin-bottom: 1em;
+}
+
+li > span {
+  font-weight: bold;
+}
+
+
+#logo {
+  text-align: center;
+  transform: scale(0.6);
+}
+
+div + p {
+  background-color: rgb(255, 255, 174);
+  border-top: 0.2em solid yellow;
+  color: rgb(16,119,119);
+  text-align: center;
+  padding: 1em 0;
+}
+
+a {
+    color: rgb(16,119,119);
+}
+
+aside p {
+    text-transform: uppercase;
+    color:rgb(221, 59, 0);
+    margin: 0;
+}
+
+aside {
+    border-left: 0.10em solid yellow;
+    padding-left: 1em;
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
+
+p > span {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.list-caption {
+  font-weight: bold;
+}
+
+hr {
+  border-color: rgb(16,119,119 0.1);
+}
+
+li {
+  padding: 0.5em;
+}
+ 
+
+li > p {
+    padding-left: 8px;
+}
+
+ol ~ p {
+    padding-left: 48px;
+}
